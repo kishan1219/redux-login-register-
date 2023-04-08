@@ -1,0 +1,489 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.bdNone {
+  border: none !important;
+}
+
+// common css start
+.op5 {
+  opacity: 0.5;
+}
+
+.imgFluid {
+  max-width: 100%;
+}
+
+.pLr12 {
+  padding: 0 12px;
+}
+
+.pL12 {
+  padding-left: 12px;
+}
+
+.pR12 {
+  padding-right: 12px;
+}
+
+.jusctifyContentSpaceBetween {
+  justify-content: space-between;
+}
+
+.justifyContentSpaceEvenly {
+  justify-content: space-evenly;
+}
+
+.mb0 {
+  margin-bottom: 0px;
+}
+.mB5 {
+  margin-bottom: 5px;
+}
+
+.mB8 {
+  margin-bottom: 8px;
+}
+
+.mB10 {
+  margin-bottom: 10px;
+}
+
+.mB13 {
+  margin-bottom: 13px;
+}
+
+.mB14 {
+  margin-bottom: 14px;
+}
+
+.mB17 {
+  margin-bottom: 17px;
+}
+
+.mr17 {
+  margin-right: 17px;
+}
+
+.mB24 {
+  margin-bottom: 24px;
+}
+.mB28 {
+  margin-bottom: 28px;
+}
+
+.mB40 {
+  margin-bottom: 40px;
+}
+.mB46 {
+  margin-bottom: 46px;
+}
+
+.mB48 {
+  margin-bottom: 48px;
+}
+.mB100 {
+  margin-bottom: 100px;
+}
+
+.mlR40 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.wordBreak {
+  word-break: break-all;
+}
+.dBlock {
+  display: block;
+}
+.dGrid {
+  display: grid;
+}
+.dGridJustifyCenter {
+  display: grid;
+  justify-items: center;
+}
+
+.dInBlock {
+  display: inline-block;
+}
+
+.dNone {
+  display: none;
+}
+
+.dContents {
+  display: contents;
+}
+
+.textDecorationNone {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+// end common css
+
+html {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "muli", sans-serif;
+}
+// text transform
+.capitalize {
+  text-transform: capitalize !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+// padding classes
+.p0 {
+  padding: 0px;
+}
+.p20 {
+  padding: 20px;
+}
+
+.pt5 {
+  padding-top: 5px;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+.pr40 {
+  padding-right: 40px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+//margin classes
+.mAuto {
+  margin: auto;
+}
+
+.mxAuto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+.ml18 {
+  margin-left: 18px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+.ml35 {
+  margin-left: 35px;
+}
+.ml40 {
+  margin-left: 40px;
+}
+.ml50 {
+  margin-left: 50px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.mr6 {
+  margin-right: 6px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+.mr12 {
+  margin-right: 12px;
+}
+.mr15 {
+  margin-right: 15px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+.mr24 {
+  margin-right: 24px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+.mr35 {
+  margin-right: 35px;
+}
+.mr40 {
+  margin-right: 40px;
+}
+.mr45 {
+  margin-right: 45px;
+}
+.mr50 {
+  margin-right: 50px;
+}
+.mt0 {
+  margin-top: 0px;
+}
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+.mt13 {
+  margin-top: 13px;
+}
+.mt15 {
+  margin-top: 10px;
+}
+.mt18 {
+  margin-top: 18px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt22 {
+  margin-top: 22px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+.mt90 {
+  margin-top: 90px;
+}
+
+.mT27 {
+  margin-top: 27px;
+}
+.mb12 {
+  margin-bottom: 12px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.mb26 {
+  margin-bottom: 26px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+.mb60 {
+  margin-bottom: 60px;
+}
+.mb70 {
+  margin-bottom: 70px;
+}
+
+.mb22 {
+  margin-bottom: 22px;
+}
+
+.mb23 {
+  margin-bottom: 23px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.pl0 {
+  padding-left: 0px;
+}
+// postion
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+//flex classes
+.dFlex {
+  display: flex;
+}
+
+.dBlock {
+  display: block;
+}
+
+.dinherit {
+  display: inherit;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifyContentEnd {
+  justify-content: flex-end;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.alignItemsStart {
+  align-items: flex-start;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+.alignbaseline {
+  align-items: baseline;
+}
+
+.centerAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alignSpaceAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alignBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+//textAligment
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+.textRight {
+  text-align: right;
+}
+.textEllipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.errorMsg {
+  color: rgba(255, 0, 0, 0.95);
+  font-size: 16px;
+  margin: 10px 0px 0px 0px;
+}
+.mlAuto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mw70 {
+  max-width: 70px;
+}
+.mw90 {
+  max-width: 90px;
+}

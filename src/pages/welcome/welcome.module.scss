@@ -1,0 +1,29 @@
+@import "../../assets/scss/mixins.scss";
+.container {
+  width: 100%;
+  min-height: 100vh;
+  @include flexJustifyCenter;
+  display: grid;
+  background: $greenPrimary;
+  .main {
+    padding: 30px;
+    background: #ffffffab;
+    display: grid;
+    gap: 20px;
+    h1 {
+      color: rgba(47, 0, 128, 0.884);
+    }
+    h2 {
+      color: $primary;
+    }
+    .button {
+      min-width: 400px;
+      margin-right: 20px;
+      min-height: 40px;
+      border-radius: 20px;
+      background: $yellow;
+      color: $white;
+      font-size: 18px;
+    }
+  }
+}

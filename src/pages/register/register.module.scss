@@ -1,0 +1,51 @@
+@import "../../assets/scss/mixins.scss";
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+@include flexJustifyCenter;
+
+  .Main {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #3c2e92;
+  color: #ffffff;
+  .cardBody {
+    padding-left: 20px;
+    .inputLabel {
+      min-width: 190px;
+      font-size: 20px;
+    }
+    input {
+      max-width: 200px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      &::placeholder {
+        color: gray;
+      }
+    }
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0;
+    }
+
+    .button {
+      min-width:400px;
+      margin-right: 20px;
+      min-height: 30px;
+      border-radius: 10px;
+      background: $yellow;
+      color: #ffffff;
+    }
+    .resetButton {
+      @extend .button;
+      background: #ff6145;
+    }
+  }
+}}

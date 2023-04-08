@@ -1,0 +1,100 @@
+@import '../scss/variables.scss';
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flexWrapBetween {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@mixin flexJustifyCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexJustifyBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flexJustifyAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flexEvenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@mixin flexJustifyEvenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+@mixin gridJustifyCenter {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+@mixin mlAuto {
+  margin-left: auto;
+  margin-right: auto;
+}
+@mixin imageProperty {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@mixin ScrollBar {
+  .scrollBar {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 12px;
+      height: 10px;
+
+      @include sm {
+        width: 10px;
+        height: 8px;
+      }
+
+      @include mo {
+        width: 8px;
+        height: 8px;
+      }
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $white;
+      border-radius: 8px;
+
+      @include sm {
+        width: 6px;
+      }
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $primary;
+      border-radius: 10px;
+      border: 1px solid $white;
+    }
+  }
+}
